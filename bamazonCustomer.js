@@ -61,19 +61,19 @@ function promptUserPurchase() {
         {
             type: 'input',
             name: 'id',
-            message: 'Please enter the Item ID which you would like to purchase.',
+            message: 'Please enter the Item ID.',
             validate: validateInput,
             filter: Number
         },
         {
             type: 'input',
             name: 'quantity',
-            message: 'How many do you need?',
+            message: 'Enter the quantity of the item needed.',
             validate: validateInput,
             filter: Number
         }
     ]).then(function (input) {
-         console.log('You have selected: \n    id = '  + input.id + '\n    quantity = ' + input.quantity);
+        console.log('You have selected: \n    id = ' + input.id + '\n    quantity = ' + input.quantity);
 
         var item = input.id;
         var quantity = input.quantity;
@@ -87,7 +87,7 @@ function promptUserPurchase() {
             // console.log('data = ' + JSON.stringify(data));
 
             if (data.length === 0) {
-                console.log('ERROR: Invalid Item ID. Please select a valid Item ID.');
+                console.log('ERROR: Please select a valid Item ID.');
                 displayInventory();
 
             } else {
@@ -124,9 +124,9 @@ function promptUserPurchase() {
             }
         })
     })
-}
+};
 
-// validateInput to ensure positive dollar values ONLY
+// Ensures positive quantities are entered ONLY
 function validateInput(value) {
     var integer = Number.isInteger(parseFloat(value));
     var sign = Math.sign(value);
@@ -136,4 +136,4 @@ function validateInput(value) {
     } else {
         return 'Please enter a whole non-zero number.';
     }
-}
+};
