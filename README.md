@@ -23,20 +23,20 @@ Allows the user to view the current inventory of store items: item IDs, descript
 #### Example command line codes for getting started: 
 
 
-    - git clone https://github.com/apleek3/bamazon.git
-    - cd --your file path--../bamazon
-    - npm i
-    - node bamazonCustomer
+    $ git clone https://github.com/apleek3/bamazon.git
+    $ cd --your file path--../bamazon
+    $ npm i
+    $ node bamazonCustomer
 
 
 ### Notes about bamazonManager
 Options are as follows for bamazonManager: 
 
-'(Use arrow keys)'
-'❯ View Products for Sale '
-  'View Low Inventory'
-  'Add to Inventory'
-  'Add New Product'
+    (Use arrow keys)
+    ❯ View Products for Sale
+      View Low Inventory
+      Add to Inventory
+      Add New Product
   
 - The 'View Products for Sale' allows the user to view the current inventory.
 
@@ -48,10 +48,10 @@ Options are as follows for bamazonManager:
 
 #### Example command line codes for getting started: 
 
-    - git https://github.com/apleek3/bamazon.git
-    - cd bamazon
-    - npm install
-    - node bamazonManager.js
+    $ git https://github.com/apleek3/bamazon.git
+    $ cd bamazon
+    $ npm install
+    $ node bamazonManager.js
 
 
 ## DEMO
