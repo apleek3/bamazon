@@ -57,6 +57,6 @@ Options are as follows for bamazonManager:
 ## DEMO
 Want to see it working? 
 
-Click here: 
+### Click here: [bamazonDemo](https://youtu.be/X7o-jE0rq5k)
 
 
