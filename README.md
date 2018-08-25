@@ -22,12 +22,12 @@ Allows the user to view the current inventory of store items: item IDs, descript
 
 #### Example command line codes for getting started: 
 
-''' 
-- git clone https://github.com/apleek3/bamazon.git
-- cd --your file path--../bamazon
-- npm i
-- node bamazonCustomer
-'''
+
+    - git clone https://github.com/apleek3/bamazon.git
+    - cd --your file path--../bamazon
+    - npm i
+    - node bamazonCustomer
+
 
 ### Notes about bamazonManager
 Options are as follows for bamazonManager: 
@@ -48,12 +48,11 @@ Options are as follows for bamazonManager:
 
 #### Example command line codes for getting started: 
 
-'''
-- git clone git@github.com:angrbrd/bamazon.git
-- cd bamazon
-- npm install
-- node bamazonManager.js
-'''
+    - git https://github.com/apleek3/bamazon.git
+    - cd bamazon
+    - npm install
+    - node bamazonManager.js
+
 
 ## DEMO
 Want to see it working? 
