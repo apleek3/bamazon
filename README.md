@@ -1,4 +1,4 @@
-#Bamazon
+# Bamazon
 ## Overview
 Command line app that uses npm inquirer and mySQL to create a storefront feeling for both pseudo "customers" and "managers."
 
@@ -22,10 +22,12 @@ Allows the user to view the current inventory of store items: item IDs, descript
 
 #### Example command line codes for getting started: 
 
-'git clone https://github.com/apleek3/bamazon.git'
-'cd --your file path--../bamazon'
-'npm i'
-'node bamazonCustomer'
+''' 
+- git clone https://github.com/apleek3/bamazon.git
+- cd --your file path--../bamazon
+- npm i
+- node bamazonCustomer
+'''
 
 ### Notes about bamazonManager
 Options are as follows for bamazonManager: 
@@ -36,20 +38,22 @@ Options are as follows for bamazonManager:
   'Add to Inventory'
   'Add New Product'
   
-The 'View Products for Sale' allows the user to view the current inventory.
+- The 'View Products for Sale' allows the user to view the current inventory.
 
-The 'View Low Inventory' shows the user the items that currently have fewer than 10 units available.
+- The 'View Low Inventory' shows the user the items that currently have fewer than 10 units available.
 
-The 'Add to Inventory' allows the user to add more items those currently in stock by referencing Item ID.
+- The 'Add to Inventory' allows the user to add more items those currently in stock by referencing Item ID.
 
-The 'Add New Product' allows the user to enter details about an entirely unlisted product which will be entered into the database.
+- The 'Add New Product' allows the user to enter details about an entirely unlisted product which will be entered into the database.
 
 #### Example command line codes for getting started: 
 
-'git clone git@github.com:angrbrd/bamazon.git'
-'cd bamazon'
-'npm install'
-'node bamazonManager.js'
+'''
+- git clone git@github.com:angrbrd/bamazon.git
+- cd bamazon
+- npm install
+- node bamazonManager.js
+'''
 
 ## DEMO
 Want to see it working? 
