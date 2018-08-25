@@ -6,7 +6,7 @@ Command line app that uses npm inquirer and mySQL to create a storefront feeling
 ## Setup
 ### To use this application yourself:
 1) Set up a MySQL database on your machine. I used the 'community' version here: [MySQL](https://dev.mysql.com/downloads/mysql/) 
-2) Set up MySQL WorkBench. [MySQL Workbench](https://www.mysql.com/products/workbench/)
+2) Set up MySQL WorkBench: [MySQL Workbench](https://www.mysql.com/products/workbench/)
 3) Set up a new MySQL connection.
 4) Create a new Data Base named: bamazon. 
 5) Use the attached bamazon.sql to create a new table pre-loaded with information.
